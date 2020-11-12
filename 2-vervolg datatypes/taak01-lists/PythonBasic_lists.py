@@ -1,17 +1,13 @@
-maanden= ['januari', 'februari', 'maart', 'april', 'mei', 'juni','july','augustus','september','oktober','november','december']
+maanden= ['januari', 'februari', 'maart', 'april', 'mei', 'juni','july','augustus','september','oktober','november','december', 'weekdagen']
+weekdagen= ['Maandag', 'dinsdag','woensdag','donderdag', 'vrijdag', 'zaterdag', 'zondag']
+maanden[12] = weekdagen
 print (maanden)
 print (maanden[6])
+
 maanden[6] = "juli"
 print (maanden[6])
-print(maanden[0] + "\n")
-print(maanden[1] + "\n")
-print(maanden[2] + "\n")
-print(maanden[3] + "\n")
-print(maanden[4] + "\n")
-print(maanden[5] + "\n")
-print(maanden[6] + "\n")
-print(maanden[7] + "\n")
-print(maanden[8] + "\n")
-print(maanden[9] + "\n")
-print(maanden[10] + "\n")
-print(maanden[11])
+
+for i in maanden:
+    print (i)
+
+len(maanden[1])
